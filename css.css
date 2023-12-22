@@ -1,0 +1,1996 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #2e2e2e;
+    position: relative;
+}
+header{
+    width: 100%;  
+    height: 100px;   
+    background-color: rgb(22, 22, 22);
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 8px 20px rgb(212, 184, 26);
+    position: fixed;
+    z-index: 200;
+}
+#h1{
+    width: 100%;
+    padding-left: 40px;
+    margin: 0px;
+    color: rgb(228, 228, 228);
+    font-size: 40px;
+}
+#corps{
+    height: 800px;
+    padding: 50px;
+}
+#explication{
+    margin-top: 100px;
+    width: 100%;
+    height: 200px;
+}
+#h1explication{
+    background-color: rgb(116, 116, 116);
+    color: rgb(228, 228, 228);
+    font-size: 24px;
+    margin: 0px;
+    width: 89%;
+    height: 30px;
+    float: left;
+    padding: 10px 2% 10px 2%;
+}
+#remonte{
+    width: 6%;
+    float: left;
+    height: 34px;
+    padding: 8px 1% 8px 0%;
+    background-color: rgb(116, 116, 116);
+}
+#espacepexplication{
+    background-color: rgb(69, 69, 69);
+    margin: 0px 2%;
+    color: rgb(228, 228, 228);
+    font-size: 15px;
+    margin-top: 15px;
+    width: 92%;
+    height: 110px;
+    float: left;
+    border-radius: 75px;
+    padding: 5px 2% 5px 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#lancerexample{
+    background-color: rgb(69, 69, 69);
+    margin: 0px 43%;
+    margin-top: 15px;
+    width: 10%;
+    height: 30px;
+    float: left;
+    border-radius: 75px;
+    padding: 5px 2% 5px 2%;
+    text-align: justify;
+}
+#principal{
+    height: 600px;
+    margin-top: 75px;
+}
+#block1{
+    background-color: rgb(69, 69, 69);
+    float: left;
+    width: 26%;
+    height: 600px;
+    border-radius: 75px;
+
+}
+#slctr{
+    background-color: rgb(69, 69, 69);
+    color: rgb(228, 228, 228);
+    font-size: 20px;
+    margin: 40px 10% 0px 10%;
+    width: 80%;
+    height: 480px;
+    border: 0px solid black;
+    outline: none;
+    word-wrap: break-word;
+    text-align: justify;
+}
+#valider{
+    width: 10%;
+    height: 40px;
+    padding: 10px 10% 30px 80%;
+}
+#block2{
+    float: left;
+    width: 8%;
+    height: 600px;
+}
+#espace_pour_bouton{
+    width: 100%;
+    float: left;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#block3{
+    float: left;
+    width: 32%;
+    height: 600px;
+    border-radius: 75px;
+    position: relative;
+}
+#espace_pour_paragraphe{
+    background-color: rgb(69, 69, 69);
+    font-size: 40px;
+    width: 100%;
+    height: 500px;
+    border-top-right-radius: 75px;
+    border-top-left-radius: 75px;
+    overflow: visible;
+}
+#lemotcomplet{
+    height: 500px;
+    color: rgb(228, 228, 228);
+    width: 150%;
+    display: flex;
+    align-items: center;
+    overflow: visible;
+    position: absolute;
+    top: 0px;
+    left: -25%;
+}
+#avant{
+    float: right;
+    width: 100%;
+    text-align: right;
+    margin-left: auto;
+}
+#lettre{
+    text-align: center;
+    padding: 0px auto;
+    margin: 0px auto;
+}
+#apres{
+    float: left;
+    width: 100%;
+    text-align: left;
+    margin-right: auto;
+}
+#espace_pour_bouton2{
+    background-color: rgb(22, 22, 22);
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    border-bottom-left-radius: 75px;
+    border-bottom-right-radius: 75px;
+}
+#restart{
+    width: 8%;
+    margin: 0px 12.5% 0px 12.5%;
+}
+#skipback{
+    width: 10%;
+}
+#pause{
+    width: 10%;
+    margin: 0px 2% 0px 2%;
+}
+#skipforward{
+    width: 10%;
+    margin-right: 33%;
+}
+#block4{
+    float: left;
+    width: 8%;
+    height: 600px;
+}
+#block5{
+    float: left;
+    width: 26%;
+    height: 600px;
+}
+#espace_pour_parametre{
+    background-color: rgb(22, 22, 22);
+    float: left;
+    width: 20%;
+    height: 600px;
+    border-top-left-radius: 75px;
+    border-bottom-left-radius: 75px;
+}
+#reglages{
+    width: 60%;
+    margin-top: 63px;
+    padding: 12px 20% 12px 20%;
+}
+#edit{
+    width: 60%;
+    padding: 12px 20% 12px 20%;
+}
+#retour{
+    width: 60%;
+    padding: 12px 20% 12px 20%;
+}
+#parametre{
+    background-color: rgb(69, 69, 69);
+    color: rgb(228, 228, 228);
+    float: left;
+    width: 80%;
+    height: 600px;
+    border-top-right-radius: 75px;
+    border-bottom-right-radius: 75px;
+    margin: 0px;
+    padding: 0px;
+}
+#h1vitesse{
+    width: 100%;
+    height: 50px;
+    margin: 0px;
+    padding: 0px;
+    padding-top: 40px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    text-align: center;
+}
+#vitesse{
+    margin-top: 0px;
+    float: left;
+    width: 70%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    font-size: 21px;
+}
+#vitesseplus{
+    float: left;
+    width: 20%;
+    height: 25px;
+    margin-right: 10%;
+}
+#vitessemoins{
+    float: left;
+    width: 20%;
+    height: 25px;
+    margin-right: 10%;
+}
+#h1modesombre{
+    float: left;
+    width: 77%;
+    height: 50px;
+    margin: 0px;
+    margin-top: 25px;
+    margin-right: 3%;
+    padding: 0px;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+#modesombre{
+    background-color: rgb(116, 116, 116);
+    width: 30px;
+    height: 30px;
+    border: 3px solid white;
+    box-shadow: 0px 0px 3px black;
+    float: left;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    border-radius: 30px;
+    margin: 38px 0px 17px 0px;
+    outline: none;
+}
+#modesombre:checked{
+    background-color: white;
+    border: 3px solid black;
+}
+#h1taille{
+    width: 100%;
+    height: 50px;
+    margin: 0px;
+    padding: 0px;
+    padding-top: 30px;
+    font-size: 30px;
+    text-align: center;
+}
+#taille{
+    width: 74%;
+    height: 50px;
+    margin: 0px 13% 25px 13%;
+    appearance: none;
+    background-color: rgb(69, 69, 69);    
+}
+#taille::-webkit-slider-thumb{
+    background-color: rgb(116, 116, 116);
+    width: 18px;
+    height: 18px;
+    border-radius: 18px;
+    border: 2px solid rgb(228, 228, 228);
+    box-shadow: 0px 0px 3px black;
+}
+#taille::-webkit-slider-runnable-track{
+    background-color: white;
+    height: 5px;
+    border-radius: 5px;
+}
+#taille::-moz-range-thumb{
+    background-color: rgb(116, 116, 116);
+    width: 18px;
+    height: 18px;
+    border-radius: 18px;
+    border: 2px solid rgb(228, 228, 228);
+    box-shadow: 0px 0px 3px black;
+}
+#taille::-moz-range-progress{
+    background-color: rgb(116, 116, 116);
+    border: 2px solid white;
+    height: 5px;
+    border-radius: 5px 0px 0px 5px;
+}
+#taille::-moz-range-track{
+    background-color: white;
+    height: 6px;
+    border-radius: 0px 5px 5px 0px;
+}
+#h1couleur{
+    width: 100%;
+    height: 50px;
+    padding: 0px;
+    margin: 0px;
+    margin-top: 25px;
+    text-align: center;
+    font-size: 30px;
+}
+#jaune{
+    width: 50px;
+    margin: 20px 8% 0px 27%;
+    height: 50px;
+    border-radius: 50px;
+    background-color: rgb(212, 184, 26);
+    box-shadow: 0px 0px 10px rgb(212, 184, 26);
+    float: left;
+}
+#vert{
+    width: 50px;
+    margin: 20px auto 0px 8%;
+    height: 50px;
+    border-radius: 50px;
+    background-color: rgb(20, 144, 35);
+    box-shadow: 0px 0px 10px rgb(20, 144, 35);
+    float: left;
+}
+#bleu{
+    width: 50px;
+    margin: 30px 13% 0px 14.5%;
+    height: 50px;
+    border-radius: 50px;
+    background-color: rgb(12, 121, 160);
+    box-shadow: 0px 0px 10px rgb(12, 121, 160);
+    float: left;
+}
+#violet{
+    width: 50px;
+    margin: 30px 0% 0px 0%;
+    height: 50px;
+    border-radius: 50px;
+    background-color: rgb(166, 37, 205);
+    box-shadow: 0px 0px 10px rgb(166, 37, 205);
+    float: left;
+}
+#rose{
+    width: 50px;
+    margin: 30px auto 0px 13%;
+    height: 50px;
+    border-radius: 50px;
+    background-color: rgb(207, 0, 138);
+    box-shadow: 0px 0px 10px rgb(207, 0, 138);
+    float: left;
+}
+#rouge{
+    width: 50px;
+    margin: 30px 8% 0px 27%;
+    height: 50px;
+    border-radius: 50px;
+    background-color: rgb(181, 37, 37);
+    box-shadow: 0px 0px 10px rgb(181, 37, 37);
+    float: left;
+}
+#orange{
+    width: 50px;
+    margin: 30px auto 0px 8%;
+    height: 50px;
+    border-radius: 50px;
+    background-color: rgb(241, 111, 3);
+    box-shadow: 0px 0px 10px rgb(241, 111, 3);
+    float: left;
+}
+#contact{
+    width: 100%;
+    height: 50px;
+    margin: 0px;
+    padding: 0px;
+    padding-top: 100px;
+    font-size: 30px;
+    text-align: center;
+}
+#mail{
+    color: rgb(228, 228, 228);
+    display: block;
+    width: 100%;
+    height: 50px;
+    margin: 0px;
+    padding: 0px;
+    padding-top: 30px;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+}
+#pied{
+    position: absolute;
+    width: 100%;
+    bottom: 25px;
+}
+#droit{
+    margin: 0px;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    font-size: 22px;
+    color: black;
+}
+
+
+
+
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    header{
+        height: 80px;   
+    }
+    #h1{
+        font-size: 25px;
+        padding-left: 20px;
+    }
+    #corps{
+        height: 490px;
+        padding-top: 10px;
+        padding-bottom: 0px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    #h1explication{
+        font-size: 16px;
+        height: 20px;
+        width: 85%;
+    }
+    #remonte{
+        height: 24px;
+        padding: 8px 5% 8px 0%;
+    }
+    #espacepexplication{
+        font-size: 8px;
+        width: 84%;
+        padding: 10px 6% 10px 6%;
+        height: 180px;
+        border-radius: 40px;
+    }
+    #lancerexample{
+        margin: 0px 37%;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        padding: 5px 8% 5px 8%;
+    }
+    #principal{
+        height: 600px;
+        margin-top: 50px;
+    }
+    #block1{
+        height: 100px;
+        width: 100%;
+        border-radius: 40px;
+        margin-bottom: 30px;
+    }
+    #slctr{
+        font-size: 16px;
+        margin: 10px 5% 0px 5%;
+        height: 60px;
+        width: 90%;
+    }
+    #valider{
+        width: 10%;
+        height: 20px;
+        padding: 3px 2% 7px 83%;
+    }
+    #block2{
+        display: none;
+    }
+    #espace_pour_bouton{
+        height: 300px;
+    }
+    #block3{
+        height: 200px;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    #espace_pour_paragraphe{
+        height: 130px;
+        border-top-left-radius: 40px;
+        border-top-right-radius: 40px;
+    }
+    #espace_pour_bouton2{
+        height: 70px;
+        border-bottom-left-radius: 40px;
+        border-bottom-right-radius: 40px;
+    }
+    #block4{
+        height: 300px;
+        display: none;
+    }
+    #block5{
+        float: left;
+        width: 100%;
+        height: 100px;
+        margin-bottom: 100px;
+    }
+    #espace_pour_parametre{
+        width: 31%;
+        height: 150px;
+        border-top-left-radius: 40px;
+        border-bottom-left-radius: 40px;
+    }
+    #reglages{
+        margin-top: 0px;
+        width: 40%;
+        height: 30px;
+        padding: 10px 30% 10px 30%;
+        border-top-left-radius: 40px;
+        float: left;
+    }
+    #edit{
+        float: left;
+        width: 40%;
+        height: 30px;
+        padding: 10px 30% 10px 30%;
+    }
+    #retour{
+        width: 40%;
+        height: 30px;
+        padding: 10px 30% 10px 30%;
+        border-bottom-left-radius: 40px;
+    }
+    #parametre{
+        width: 69%;
+        height: 150px;
+        border-top-right-radius: 40px;
+        border-bottom-right-radius: 40px;
+        position: relative;
+    }
+    #h1vitesse{
+        height: 55px;
+        font-size: 9px;
+        width: 50%;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0px;
+    }
+    #vitesse{
+        height: 30px;
+        width: 42.5%;
+        font-size: 8px;
+        position: absolute;
+        top: 65px;
+        left: 0px;
+    }
+    #vitesseplus{
+        height: 15px;
+        width: 10%;
+        margin-right: 7.5%;
+        position: absolute;
+        top: 65px;
+        left: 42.5%;
+    }
+    #vitessemoins{
+        height: 15px;
+        width: 10%;
+        margin-right: 7.5%;
+        position: absolute;
+        top: 80px;
+        left: 42.5%;
+    }
+    #h1modesombre{
+        height: 55px;
+        margin: 0px;
+        font-size: 9px;
+        width: 50%;
+        margin-bottom: 30px;
+        position: absolute;
+        top: 0px;
+        left: 50%;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+    }
+    #modesombre{
+        width: 20px;
+        height: 20px;
+        margin: 15px 0px 17px 20%;
+        position: absolute;
+        top: 55px;
+        left: 50%;
+    }
+    #h1taille{
+        height: 55px;
+        padding-top: 0px;
+        font-size: 9px;
+        width: 50%;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+    }
+    #taille{
+        height: 30px;
+        width: 34%;
+        margin: 0px 8% 20px 8%;
+        position: absolute;
+        top: 70px;
+        left: 0px;
+    }
+    #taille::-webkit-slider-thumb{
+        width: 14px;
+        height: 14px;
+    }
+    #taille::-webkit-slider-runnable-track{
+        height: 4px;
+    }
+    #taille::-moz-range-thumb{
+        width: 14px;
+        height: 14px;
+    }
+    #taille::-moz-range-progress{
+        height: 4px;
+    }
+    #taille::-moz-range-track{
+        height: 5px;
+    }
+    #h1couleur{
+        height: 55px;
+        margin-top: 0px;
+        font-size: 9px;
+        width: 50%;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        position: absolute;
+        top: 0px;
+        left: 50%;
+    }
+    #jaune{
+        width: 20px;
+        margin: 0px;
+        height: 20px;
+        position: absolute;
+        top: 55px;
+        right: 29%;
+    }
+    #vert{
+        width: 20px;
+        margin: 0px;
+        height: 20px;
+        position: absolute;
+        top: 55px;
+        right: 15%;
+    }
+    #bleu{
+        width: 20px;
+        margin: 0px;
+        height: 20px;
+        position: absolute;
+        top: 85px;
+        right: 34%;
+    }
+    #violet{
+        width: 20px;
+        margin: 0px;
+        height: 20px;
+        position: absolute;
+        top: 85px;
+        right: 22%;
+    }
+    #rose{
+        width: 20px;
+        margin: 0px;
+        height: 20px;
+        position: absolute;
+        top: 85px;
+        right: 10%;
+    }
+    #rouge{
+        width: 20px;
+        margin: 0px;
+        height: 20px;
+        position: absolute;
+        top: 115px;
+        right: 29%;
+    }
+    #orange{
+        width: 20px;
+        margin: 0px;
+        height: 20px;
+        position: absolute;
+        top: 115px;
+        right: 15%;
+    }
+    #contact{
+        height: 30px;
+        width: 100%;
+        padding: 0px;
+        font-size: 19px;
+        position: absolute;
+        top: 40px;
+    }
+    #mail{
+        height: 30px;
+        width: 100%;
+        padding: 0px;
+        font-size: 10px;
+        position: absolute;
+        top: 85px;
+    }
+    #pied{
+        bottom: 0px;
+    }
+    #droit{
+        height: 50px;
+        font-size: 10px;
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width: 768px) {
+    header{
+        height: 80px;
+    }
+    #h1{
+        font-size: 30px;
+    }
+    #corps{
+        height: 490px;
+        padding-top: 30px;
+        padding-bottom: 0px;
+    }
+    #h1explication{
+        font-size: 18px;
+        height: 22px;
+        width: 85%;
+    }
+    #remonte{
+        height: 26px;
+        padding: 8px 5% 8px 0%;
+    }
+    #espacepexplication{
+        font-size: 10px;
+        width: 72%;
+        padding: 30px 12% 30px 12%;
+        height: 200px;
+    }
+    #lancerexample{
+        margin: 0px 37%;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        padding: 5px 8% 5px 8%;
+    }
+    #principal{
+        height: 600px;
+        margin-top: 50px;
+    }
+    #block1{
+        height: 150px;
+        width: 100%;
+        border-radius: 40px;
+        margin-bottom: 30px;
+    }
+    #slctr{
+        font-size: 16px;
+        margin: 15px 5% 0px 5%;
+        height: 95px;
+        width: 90%;
+    }
+    #valider{
+        width: 10%;
+        height: 25px;
+        padding: 7.5px 2% 7.5px 83%;
+    }
+    #block2{
+        display: none;
+    }
+    #espace_pour_bouton{
+        height: 300px;
+    }
+    #block3{
+        height: 250px;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    #espace_pour_paragraphe{
+        height: 180px;
+        border-top-left-radius: 40px;
+        border-top-right-radius: 40px;
+    }
+    #espace_pour_bouton2{
+        height: 70px;
+        border-bottom-left-radius: 40px;
+        border-bottom-right-radius: 40px;
+    }
+    #block4{
+        height: 300px;
+        display: none;
+    }
+    #block5{
+        float: left;
+        width: 100%;
+        height: 150px;
+    }
+    #espace_pour_parametre{
+        width: 23%;
+        height: 150px;
+        border-top-left-radius: 40px;
+        border-bottom-left-radius: 40px;
+    }
+    #reglages{
+        margin-top: 0px;
+        width: 40%;
+        height: 30px;
+        padding: 10px 30% 10px 30%;
+        border-top-left-radius: 40px;
+        float: left;
+    }
+    #edit{
+        float: left;
+        width: 40%;
+        height: 30px;
+        padding: 10px 30% 10px 30%;
+    }
+    #retour{
+        width: 40%;
+        height: 30px;
+        padding: 10px 30% 10px 30%;
+        border-bottom-left-radius: 40px;
+    }
+    #parametre{
+        width: 77%;
+        height: 150px;
+        border-top-right-radius: 40px;
+        border-bottom-right-radius: 40px;
+        position: relative;
+    }
+    #h1vitesse{
+        height: 55px;
+        font-size: 14px;
+        width: 50%;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0px;
+    }
+    #vitesse{
+        height: 30px;
+        width: 38.5%;
+        font-size: 10px;
+        position: absolute;
+        top: 65px;
+        left: 0px;
+    }
+    #vitesseplus{
+        height: 15px;
+        width: 10%;
+        margin-right: 7.5%;
+        position: absolute;
+        top: 65px;
+        left: 38.5%;
+    }
+    #vitessemoins{
+        height: 15px;
+        width: 10%;
+        margin-right: 7.5%;
+        position: absolute;
+        top: 80px;
+        left: 38.5%;
+    }
+    #h1modesombre{
+        height: 55px;
+        margin: 0px;
+        font-size: 14px;
+        width: 50%;
+        margin-bottom: 30px;
+        position: absolute;
+        top: 0px;
+        left: 50%;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+    }
+    #modesombre{
+        width: 20px;
+        height: 20px;
+        margin: 15px 0px 17px 22%;
+        position: absolute;
+        top: 55px;
+        left: 50%;
+    }
+    #h1taille{
+        height: 55px;
+        padding-top: 0px;
+        font-size: 14px;
+        width: 50%;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+    }
+    #taille{
+        height: 30px;
+        width: 34%;
+        margin: 0px 8% 20px 8%;
+        position: absolute;
+        top: 70px;
+        left: 0px;
+    }
+    #taille::-webkit-slider-thumb{
+        width: 14px;
+        height: 14px;
+    }
+    #taille::-webkit-slider-runnable-track{
+        height: 4px;
+    }
+    #taille::-moz-range-thumb{
+        width: 14px;
+        height: 14px;
+    }
+    #taille::-moz-range-progress{
+        height: 4px;
+    }
+    #taille::-moz-range-track{
+        height: 5px;
+    }
+    #h1couleur{
+        height: 55px;
+        margin-top: 0px;
+        font-size: 14px;
+        width: 50%;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        position: absolute;
+        top: 0px;
+        left: 50%;
+    }
+    #jaune{
+        width: 20px;
+        margin: 0px;
+        height: 20px;
+        position: absolute;
+        top: 55px;
+        right: 27%;
+    }
+    #vert{
+        width: 20px;
+        margin: 0px;
+        height: 20px;
+        position: absolute;
+        top: 55px;
+        right: 17%;
+    }
+    #bleu{
+        width: 20px;
+        margin: 0px;
+        height: 20px;
+        position: absolute;
+        top: 85px;
+        right: 32%;
+    }
+    #violet{
+        width: 20px;
+        margin: 0px;
+        height: 20px;
+        position: absolute;
+        top: 85px;
+        right: 22%;
+    }
+    #rose{
+        width: 20px;
+        margin: 0px;
+        height: 20px;
+        position: absolute;
+        top: 85px;
+        right: 12%;
+    }
+    #rouge{
+        width: 20px;
+        margin: 0px;
+        height: 20px;
+        position: absolute;
+        top: 115px;
+        right: 27%;
+    }
+    #orange{
+        width: 20px;
+        margin: 0px;
+        height: 20px;
+        position: absolute;
+        top: 115px;
+        right: 17%;
+    }
+    #contact{
+        height: 30px;
+        width: 100%;
+        padding: 0px;
+        font-size: 19px;
+        position: absolute;
+        top: 40px;
+    }
+    #mail{
+        height: 30px;
+        width: 100%;
+        padding: 0px;
+        font-size: 12px;
+        position: absolute;
+        top: 85px;
+    }
+    #pied{
+        bottom: 0px;
+    }
+    #droit{
+        height: 50px;
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    #corps{
+        height: 490px;
+        padding-bottom: 0px;
+    }
+    #h1explication{
+        font-size: 20px;
+        height: 25px;
+    }
+    #remonte{
+        height: 29px;
+    }
+    #espacepexplication{
+        font-size: 10px;
+        width: 86%;
+        padding: 5px 5% 5px 5%;
+    }
+    #principal{
+        height: 490px;
+    }
+    #block1{
+        height: 300px;
+        width: 37%;
+    }
+    #slctr{
+        font-size: 16px;
+        margin: 30px 10% 0px 10%;
+        height: 215px;
+    }
+    #valider{
+        width: 10%;
+        height: 40px;
+        padding: 0px 15% 15px 75%;
+    }
+    #block2{
+        height: 300px;
+        width: 11%;
+    }
+    #espace_pour_bouton{
+        height: 300px;
+    }
+    #block3{
+        height: 300px;
+        width: 52%;
+    }
+    #espace_pour_paragraphe{
+        height: 230px;
+    }
+    #espace_pour_bouton2{
+        height: 70px;
+    }
+    #block4{
+        height: 300px;
+        display: none;
+    }
+    #block5{
+        margin-top: 40px;
+        float: left;
+        width: 100%;
+        height: 150px;
+    }
+    #espace_pour_parametre{
+        width: 15%;
+        height: 150px;
+        border-top-left-radius: 40px;
+        border-bottom-left-radius: 40px;
+    }
+    #reglages{
+        margin-top: 0px;
+        width: 40%;
+        height: 30px;
+        padding: 10px 30% 10px 30%;
+        border-top-left-radius: 40px;
+        float: left;
+    }
+    #edit{
+        float: left;
+        width: 40%;
+        height: 30px;
+        padding: 10px 30% 10px 30%;
+    }
+    #retour{
+        width: 40%;
+        height: 30px;
+        padding: 10px 30% 10px 30%;
+        border-bottom-left-radius: 40px;
+    }
+    #parametre{
+        width: 85%;
+        height: 150px;
+        border-top-right-radius: 40px;
+        border-bottom-right-radius: 40px;
+        position: relative;
+    }
+    #h1vitesse{
+        height: 55px;
+        font-size: 16px;
+        width: 50%;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0px;
+    }
+    #vitesse{
+        height: 30px;
+        width: 32.5%;
+        font-size: 13px;
+        position: absolute;
+        top: 65px;
+        left: 0px;
+    }
+    #vitesseplus{
+        height: 15px;
+        width: 10%;
+        margin-right: 7.5%;
+        position: absolute;
+        top: 65px;
+        left: 32.5%;
+    }
+    #vitessemoins{
+        height: 15px;
+        width: 10%;
+        margin-right: 7.5%;
+        position: absolute;
+        top: 80px;
+        left: 32.5%;
+    }
+    #h1modesombre{
+        height: 55px;
+        margin: 0px;
+        font-size: 16px;
+        width: 50%;
+        margin-bottom: 30px;
+        position: absolute;
+        top: 0px;
+        left: 50%;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+    }
+    #modesombre{
+        width: 20px;
+        height: 20px;
+        margin: 15px 0px 17px 24%;
+        position: absolute;
+        top: 55px;
+        left: 50%;
+    }
+    #h1taille{
+        height: 55px;
+        padding-top: 0px;
+        font-size: 16px;
+        width: 50%;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+    }
+    #taille{
+        height: 30px;
+        width: 34%;
+        margin: 0px 8% 20px 8%;
+        position: absolute;
+        top: 55px;
+        left: 0px;
+    }
+    #taille::-webkit-slider-thumb{
+        width: 14px;
+        height: 14px;
+    }
+    #taille::-webkit-slider-runnable-track{
+        height: 4px;
+    }
+    #taille::-moz-range-thumb{
+        width: 14px;
+        height: 14px;
+    }
+    #taille::-moz-range-progress{
+        height: 4px;
+    }
+    #taille::-moz-range-track{
+        height: 5px;
+    }
+    #h1couleur{
+        height: 55px;
+        margin-top: 0px;
+        font-size: 16px;
+        width: 50%;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        position: absolute;
+        top: 0px;
+        left: 50%;
+    }
+    #jaune{
+        width: 25px;
+        margin: 0px;
+        height: 25px;
+        position: absolute;
+        top: 55px;
+        right: 27%;
+    }
+    #vert{
+        width: 25px;
+        margin: 0px;
+        height: 25px;
+        position: absolute;
+        top: 55px;
+        right: 17%;
+    }
+    #bleu{
+        width: 25px;
+        margin: 0px;
+        height: 25px;
+        position: absolute;
+        top: 85px;
+        right: 32%;
+    }
+    #violet{
+        width: 25px;
+        margin: 0px;
+        height: 25px;
+        position: absolute;
+        top: 85px;
+        right: 22%;
+    }
+    #rose{
+        width: 25px;
+        margin: 0px;
+        height: 25px;
+        position: absolute;
+        top: 85px;
+        right: 12%;
+    }
+    #rouge{
+        width: 25px;
+        margin: 0px;
+        height: 25px;
+        position: absolute;
+        top: 115px;
+        right: 27%;
+    }
+    #orange{
+        width: 25px;
+        margin: 0px;
+        height: 25px;
+        position: absolute;
+        top: 115px;
+        right: 17%;
+    }
+    #contact{
+        height: 30px;
+        width: 100%;
+        padding: 0px;
+        font-size: 19px;
+        position: absolute;
+        top: 50px;
+    }
+    #mail{
+        height: 30px;
+        width: 100%;
+        padding: 0px;
+        font-size: 12px;
+        position: absolute;
+        top: 90px;
+    }
+    #pied{
+        bottom: 0px;
+    }
+    #droit{
+        height: 50px;
+        font-size: 15px;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+    #corps{
+        height: 700px;
+    }
+    #espacepexplication{
+        font-size: 12px;
+        width: 86%;
+        padding: 5px 5% 5px 5%;
+    }
+    #principal{
+        height: 400px;
+    }
+    #block1{
+        height: 400px;
+    }
+    #slctr{
+        font-size: 18px;
+        margin: 30px 10% 0px 10%;
+        height: 315px;
+    }
+    #valider{
+        width: 10%;
+        height: 40px;
+        padding: 0px 15% 15px 75%;
+    }
+    #block2{
+        height: 400px;
+    }
+    #espace_pour_bouton{
+        height: 400px;
+    }
+    #block3{
+        height: 400px;
+    }
+    #espace_pour_paragraphe{
+        height: 330px;
+    }
+    #espace_pour_bouton2{
+        height: 70px;
+    }
+    #block4{
+        height: 400px;
+    }
+    #block5{
+        float: left;
+        width: 26%;
+        height: 400px;
+    }
+    #espace_pour_parametre{
+        width: 23%;
+        height: 400px;
+    }
+    #reglages{
+        margin-top: 48px;
+    }
+    #parametre{
+        width: 77%;
+        height: 400px;
+    }
+    #h1vitesse{
+        height: 30px;
+        padding-top: 40px;
+        margin-bottom: 10px;
+        font-size: 16px;
+    }
+    #vitesse{
+        height: 30px;
+        font-size: 13px;
+    }
+    #vitesseplus{
+        height: 15px;
+        width: 25%;
+        margin-right: 5%;
+    }
+    #vitessemoins{
+        height: 15px;
+        width: 25%;
+        margin-right: 5%;
+    }
+    #h1modesombre{
+        height: 30px;
+        margin-top: 15px;
+        font-size: 16px;
+    }
+    #modesombre{
+        width: 20px;
+        height: 20px;
+        margin: 21px 0px 17px 5px;
+    }
+    #h1taille{
+        height: 30px;
+        padding-top: 30px;
+        font-size: 16px;
+    }
+    #taille{
+        height: 30px;
+        margin: 0px 13% 20px 13%;
+    }
+    #taille::-webkit-slider-thumb{
+        width: 14px;
+        height: 14px;
+    }
+    #taille::-webkit-slider-runnable-track{
+        height: 4px;
+    }
+    #taille::-moz-range-thumb{
+        width: 14px;
+        height: 14px;
+    }
+    #taille::-moz-range-progress{
+        height: 4px;
+    }
+    #taille::-moz-range-track{
+        height: 5px;
+    }
+    #h1couleur{
+        height: 30px;
+        margin-top: 5px;
+        font-size: 16px;
+    }
+    #jaune{
+        width: 30px;
+        margin: 20px 8% 0px 24%;
+        height: 30px;
+    }
+    #vert{
+        width: 30px;
+        margin: 20px auto 0px 8%;
+        height: 30px;
+    }
+    #bleu{
+        width: 30px;
+        margin: 20px 13% 0px 11.5%;
+        height: 30px;
+    }
+    #violet{
+        width: 30px;
+        margin: 20px 0% 0px 0%;
+        height: 30px;
+    }
+    #rose{
+        width: 30px;
+        margin: 20px auto 0px 13%;
+        height: 30px;
+    }
+    #rouge{
+        width: 30px;
+        margin: 20px 8% 0px 24%;
+        height: 30px;
+    }
+    #orange{
+        width: 30px;
+        margin: 20px auto 0px 8%;
+        height: 30px;
+    }
+    #contact{
+        height: 30px;
+        padding-top: 140px;
+        font-size: 16px;
+    }
+    #mail{
+        height: 30px;
+        padding-top: 10px;
+        font-size: 10px;
+    }
+    #pied{
+        bottom: 0px;
+    }
+    #droit{
+        height: 50px;
+        font-size: 17px;
+    }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1300px) {
+    #corps{
+        height: 700px;
+    }
+    #espacepexplication{
+        font-size: 13px;
+    }
+    #principal{
+        height: 500px;
+    }
+    #block1{
+        height: 500px;
+    }
+    #slctr{
+        font-size: 18px;
+        margin: 30px 10% 0px 10%;
+        height: 390px;
+    }
+    #block2{
+        height: 500px;
+    }
+    #espace_pour_bouton{
+        height: 500px;
+    }
+    #block3{
+        height: 500px;
+    }
+    #espace_pour_paragraphe{
+        height: 400px;
+    }
+    #espace_pour_bouton2{
+        height: 100px;
+    }
+    #block4{
+        height: 500px;
+    }
+    #block5{
+        float: left;
+        width: 26%;
+        height: 500px;
+    }
+    #espace_pour_parametre{
+        width: 23%;
+        height: 500px;
+    }
+    #parametre{
+        width: 77%;
+        height: 500px;
+    }
+    #h1vitesse{
+        height: 40px;
+        padding-top: 40px;
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
+    #vitesse{
+        height: 40px;
+        font-size: 15px;
+    }
+    #vitesseplus{
+        height: 20px;
+    }
+    #vitessemoins{
+        height: 20px;
+    }
+    #h1modesombre{
+        height: 40px;
+        margin-top: 15px;
+        font-size: 20px;
+    }
+    #modesombre{
+        width: 20px;
+        height: 20px;
+        margin: 28px 0px 17px 0px;
+    }
+    #h1taille{
+        height: 40px;
+        padding-top: 30px;
+        font-size: 20px;
+    }
+    #taille{
+        height: 40px;
+        margin: 0px 13% 20px 13%;
+    }
+    #taille::-webkit-slider-thumb{
+        width: 14px;
+        height: 14px;
+    }
+    #taille::-webkit-slider-runnable-track{
+        height: 4px;
+    }
+    #taille::-moz-range-thumb{
+        width: 14px;
+        height: 14px;
+    }
+    #taille::-moz-range-progress{
+        height: 4px;
+    }
+    #taille::-moz-range-track{
+        height: 5px;
+    }
+    #h1couleur{
+        height: 40px;
+        margin-top: 15px;
+        font-size: 20px;
+    }
+    #jaune{
+        width: 40px;
+        margin: 20px 8% 0px 22%;
+        height: 40px;
+    }
+    #vert{
+        width: 40px;
+        margin: 20px auto 0px 8%;
+        height: 40px;
+    }
+    #bleu{
+        width: 40px;
+        margin: 20px 13% 0px 9.5%;
+        height: 40px;
+    }
+    #violet{
+        width: 40px;
+        margin: 20px 0% 0px 0%;
+        height: 40px;
+    }
+    #rose{
+        width: 40px;
+        margin: 20px auto 0px 13%;
+        height: 40px;
+    }
+    #rouge{
+        width: 40px;
+        margin: 20px 8% 0px 22%;
+        height: 40px;
+    }
+    #orange{
+        width: 40px;
+        margin: 20px auto 0px 8%;
+        height: 40px;
+    }
+    #contact{
+        height: 40px;
+        padding-top: 150px;
+        font-size: 20px;
+    }
+    #mail{
+        height: 40px;
+        padding-top: 15px;
+        font-size: 12px;
+    }
+    #pied{
+        bottom: 15px;
+    }
+    #droit{
+        height: 50px;
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 1300px) and (max-width: 1400px) {
+    #corps{
+        height: 700px;
+    }
+    #espacepexplication{
+        font-size: 13px;
+    }
+    #principal{
+        height: 500px;
+    }
+    #block1{
+        height: 500px;
+    }
+    #slctr{
+        font-size: 18px;
+        margin: 30px 10% 0px 10%;
+        height: 390px;
+    }
+    #block2{
+        height: 500px;
+    }
+    #espace_pour_bouton{
+        height: 500px;
+    }
+    #block3{
+        height: 500px;
+    }
+    #espace_pour_paragraphe{
+        height: 400px;
+    }
+    #espace_pour_bouton2{
+        height: 100px;
+    }
+    #block4{
+        height: 500px;
+    }
+    #block5{
+        float: left;
+        width: 26%;
+        height: 500px;
+    }
+    #espace_pour_parametre{
+        width: 23%;
+        height: 500px;
+    }
+    #parametre{
+        width: 77%;
+        height: 500px;
+    }
+    #h1vitesse{
+        height: 40px;
+        padding-top: 40px;
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
+    #vitesse{
+        height: 40px;
+        font-size: 15px;
+    }
+    #vitesseplus{
+        height: 20px;
+    }
+    #vitessemoins{
+        height: 20px;
+    }
+    #h1modesombre{
+        height: 40px;
+        margin-top: 15px;
+        font-size: 20px;
+    }
+    #modesombre{
+        width: 20px;
+        height: 20px;
+        margin: 28px 0px 17px 0px;
+    }
+    #h1taille{
+        height: 40px;
+        padding-top: 30px;
+        font-size: 20px;
+    }
+    #taille{
+        height: 40px;
+        margin: 0px 13% 20px 13%;
+    }
+    #taille::-webkit-slider-thumb{
+        width: 14px;
+        height: 14px;
+    }
+    #taille::-webkit-slider-runnable-track{
+        height: 4px;
+    }
+    #taille::-moz-range-thumb{
+        width: 14px;
+        height: 14px;
+    }
+    #taille::-moz-range-progress{
+        height: 4px;
+    }
+    #taille::-moz-range-track{
+        height: 5px;
+    }
+    #h1couleur{
+        height: 40px;
+        margin-top: 15px;
+        font-size: 20px;
+    }
+    #jaune{
+        width: 40px;
+        margin: 20px 8% 0px 24%;
+        height: 40px;
+    }
+    #vert{
+        width: 40px;
+        margin: 20px auto 0px 8%;
+        height: 40px;
+    }
+    #bleu{
+        width: 40px;
+        margin: 20px 13% 0px 11.5%;
+        height: 40px;
+    }
+    #violet{
+        width: 40px;
+        margin: 20px 0% 0px 0%;
+        height: 40px;
+    }
+    #rose{
+        width: 40px;
+        margin: 20px auto 0px 13%;
+        height: 40px;
+    }
+    #rouge{
+        width: 40px;
+        margin: 20px 8% 0px 24%;
+        height: 40px;
+    }
+    #orange{
+        width: 40px;
+        margin: 20px auto 0px 8%;
+        height: 40px;
+    }
+    #contact{
+        height: 40px;
+        padding-top: 150px;
+        font-size: 20px;
+    }
+    #mail{
+        height: 40px;
+        padding-top: 15px;
+        font-size: 12px;
+    }
+    #pied{
+        bottom: 15px;
+    }
+    #droit{
+        height: 50px;
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 1400px) and (max-width: 1600px) {
+    #corps{
+        height: 700px;
+    }
+    #espacepexplication{
+        font-size: 13px;
+    }
+    #principal{
+        height: 500px;
+    }
+    #block1{
+        height: 500px;
+    }
+    #slctr{
+        font-size: 18px;
+        margin: 30px 10% 0px 10%;
+        height: 390px;
+    }
+    #block2{
+        height: 500px;
+    }
+    #espace_pour_bouton{
+        height: 500px;
+    }
+    #block3{
+        height: 500px;
+    }
+    #espace_pour_paragraphe{
+        height: 400px;
+    }
+    #espace_pour_bouton2{
+        height: 100px;
+    }
+    #block4{
+        height: 500px;
+    }
+    #block5{
+        float: left;
+        width: 26%;
+        height: 500px;
+    }
+    #espace_pour_parametre{
+        width: 23%;
+        height: 500px;
+    }
+    #parametre{
+        width: 77%;
+        height: 500px;
+    }
+    #h1vitesse{
+        height: 40px;
+        padding-top: 40px;
+        margin-bottom: 10px;
+        font-size: 24px;
+    }
+    #vitesse{
+        height: 40px;
+        font-size: 17px;
+    }
+    #vitesseplus{
+        height: 20px;
+    }
+    #vitessemoins{
+        height: 20px;
+    }
+    #h1modesombre{
+        height: 40px;
+        margin-top: 15px;
+        font-size: 24px;
+    }
+    #modesombre{
+        width: 20px;
+        height: 20px;
+        margin: 28px 0px 17px 0px;
+    }
+    #h1taille{
+        height: 40px;
+        padding-top: 30px;
+        font-size: 24px;
+    }
+    #taille{
+        height: 40px;
+        margin: 0px 13% 20px 13%;
+    }
+    #taille::-webkit-slider-thumb{
+        width: 14px;
+        height: 14px;
+    }
+    #taille::-webkit-slider-runnable-track{
+        height: 4px;
+    }
+    #taille::-moz-range-thumb{
+        width: 14px;
+        height: 14px;
+    }
+    #taille::-moz-range-progress{
+        height: 4px;
+    }
+    #taille::-moz-range-track{
+        height: 5px;
+    }
+    #h1couleur{
+        height: 40px;
+        margin-top: 15px;
+        font-size: 24px;
+    }
+    #jaune{
+        width: 40px;
+        margin: 20px 8% 0px 26%;
+        height: 40px;
+    }
+    #vert{
+        width: 40px;
+        margin: 20px auto 0px 8%;
+        height: 40px;
+    }
+    #bleu{
+        width: 40px;
+        margin: 20px 13% 0px 13.5%;
+        height: 40px;
+    }
+    #violet{
+        width: 40px;
+        margin: 20px 0% 0px 0%;
+        height: 40px;
+    }
+    #rose{
+        width: 40px;
+        margin: 20px auto 0px 13%;
+        height: 40px;
+    }
+    #rouge{
+        width: 40px;
+        margin: 20px 8% 0px 26%;
+        height: 40px;
+    }
+    #orange{
+        width: 40px;
+        margin: 20px auto 0px 8%;
+        height: 40px;
+    }
+    #contact{
+        height: 40px;
+        padding-top: 150px;
+        font-size: 24px;
+    }
+    #mail{
+        height: 40px;
+        padding-top: 15px;
+        font-size: 15px;
+    }
+    #pied{
+        bottom: 15px;
+    }
+    #droit{
+        height: 50px;
+        font-size: 18px;
+    }
+}
